@@ -12,4 +12,5 @@ int main(){
         tabuada = a * b;
         printf("%d x %d = %d\n", a, b, tabuada);
     }
+    printf("Parabéns! Agora você sabe a Tabuada de %d\n", a);
 }
