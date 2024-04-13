@@ -3,14 +3,27 @@
 #include <time.h>
 
 int main(){
-	
-	// Imprimindo o cabeçalho do nosso jogo
-	printf("-------------------------------------------\n"); 
-	printf("| Bem Vindo ao nosso jogo de adivinhação! |\n");
-	printf("-------------------------------------------\n");
+printf("\n");
+printf("	 	           /   \\							\n");
+printf(" _                 )      ((   ))     (					    \n");
+printf("(@)               /|\\      ))_((     /|\\                 _  \n");
+printf("|-|`\\            / | \\    (/\\|/\\)   / | \\               (@) \n");
+printf("| | ------------/--|-voV---\\`|'/--Vov-|--\\--------------|-| \n");
+printf("|-|                  '^`   (o o)  '^`                   | | \n");
+printf("| |                        `\\Y/'                        |-| \n");
+printf("|-|         	    JOGO DE ADIVINHAÇÃO                 | | \n");
+printf("| |                                                     |-| \n");
+printf("|_|_____________________________________________________| | \n");
+printf("(@)       l   /\\ /         ( (       \\ /\\   l         `\\|-| \n");
+printf("          l /   V           \\ \\       V   \\ l           (@) \n");
+printf("          l/                _) )_          \\I				\n");
+printf("                            `\\ /'							\n");
+printf("                              `								\n");
+printf("\n");
+
 
 	int segundos = time(0);
-    srand(segundos);
+    	srand(segundos);
 
 	int bignum = rand();
 
